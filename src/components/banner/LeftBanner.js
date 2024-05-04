@@ -20,24 +20,24 @@ const LeftBanner = () => {
     delaySpeed: 2000,
   });
   return (
-    <div className="w-1/2 flex flex-col gap-20">
+    <div className="w-full md:w-1/2 flex flex-col gap-20 p-4 md:p-0">
       <div className="flex flex-col gap-5">
-        <h4 className="text-lg front-normal">WELCOME TO MY WORLD</h4>
-        <h1 className="text-6xl font-bold text-white">
-          Hi,I am {""}
+        <h4 className="text-lg font-normal">WELCOME TO MY WORLD</h4>
+        <h1 className="text-4xl md:text-6xl font-bold text-white">
+          Hi, I am {""}
           <span className="text-designColor capitalize">
-            KUGANESAN KANGATHARAN
+            Kuganesan Kangatharan
           </span>
         </h1>
-        <h2 className="text-4xl front-bold text-white">
-          a <span> {text}</span>
+        <h2 className="text-2xl md:text-4xl font-bold text-white">
+          a <span>{text}</span>
           <Cursor
             cursorBlinking="false"
             cursorStyle="|"
             cursorColor="#ff014f"
           />
         </h2>
-        <p className="text-base front-bodyFont leading-6 tracking-wide">
+        <p className="text-base font-bodyFont leading-6 tracking-wide text-white">
           As a Laravel and React developer, I specialize in crafting robust and
           dynamic web applications by leveraging the strengths of both Laravel,
           a popular PHP framework, and React, a versatile JavaScript library. My
@@ -46,9 +46,9 @@ const LeftBanner = () => {
           and translate them into scalable and efficient solutions.
         </p>
       </div>
-      <div className="flex justify-between">
-        <div>
-          <h2 className="text-base uppercase front-titleFont mb-4">
+      <div className="flex flex-col md:flex-row justify-between">
+        <div className="mb-6 md:mb-0">
+          <h2 className="text-base md:text-lg uppercase font-titleFont mb-4">
             Find me in
           </h2>
           <div className="flex gap-4">
@@ -72,7 +72,7 @@ const LeftBanner = () => {
           </div>
         </div>
         <div>
-          <h2 className="text-base uppercase front-titleFont mb-4">
+          <h2 className="text-base md:text-lg uppercase font-titleFont mb-4">
             BEST SKILL ON
           </h2>
           <div className="flex gap-4">

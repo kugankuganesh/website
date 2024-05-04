@@ -7,14 +7,14 @@ const Experience = () => {
     <motion.div
       initial={{ opacity: 0 }}
       animate={{ opacity: 1, transition: { duration: 0.5 } }}
-      className="py-12 font-titleFont flex gap-20"
-    >
+      className="py-8 md:py-12 font-titleFont flex flex-col md:flex-row md:gap-20">
       <div>
+      <div className="md:w-1/2">
         <div className="flex flex-col gap-4">
           <p className="text-sm text-designColor tracking-[4px]">2018 - 2024</p>
           <h2 className="text-4xl font-bold">Job Experience</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-60 flex flex-col gap-10">
+        <div className="mt-8 md:mt-14 w-full">
           <ResumeCard
             title="Software Engineer"
             subTitle="AKH IT Solutions - ( Aug 2023 - Present)"
@@ -33,9 +33,9 @@ const Experience = () => {
             result="Kollupitya, Colombo"
             des="In here I cant to learn new things just I am work on Laravel front end Development and wordpress Development I never Recoumend for this compny to anyone.
             As a Laraval Developer, I code PHP,Ajax and Json codes and work with our
-product team to create a product for our customers and I involved into a
-entire product lifecycle including development, deployment, bug fixing,
-testing and maintaince of new and existing features"
+            product team to create a product for our customers and I involved into a
+            entire product lifecycle including development, deployment, bug fixing,
+            testing and maintaince of new and existing features"
           />
 
           <ResumeCard
@@ -50,12 +50,14 @@ testing and maintaince of new and existing features"
           />
         </div>
       </div>
+      </div>
+     
       <div>
-        <div className="flex flex-col gap-4">
+        <div className="md:w-1/2">
           <p className="text-sm text-designColor tracking-[4px]">2017 - 2018</p>
           <h2 className="text-4xl font-bold">Trainee Experience</h2>
         </div>
-        <div className="mt-14 w-full h-[1000px] border-l-[6px] border-l-black border-opacity-30 flex flex-col gap-10">
+        <div className="mt-8 md:mt-14 w-full">
           <ResumeCard
             title="
             Odoo consultant"

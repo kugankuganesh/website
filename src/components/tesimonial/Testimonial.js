@@ -116,7 +116,7 @@ const Testimonial = () => {
               <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
                 <img className="w-20 lgl:w-32" src={quote} alt="quote" />
                 <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
-                  <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
+                  {/* <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
                         Website <a href="https://nisus.lk/"></a>
@@ -132,7 +132,7 @@ const Testimonial = () => {
                       <RiStarFill />
                       <RiStarFill />
                     </div>
-                  </div>
+                  </div> */}
                   {/* <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
                     dolorum, eos natus ipsum numquam veniam officia
@@ -167,7 +167,7 @@ const Testimonial = () => {
               <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
                 <img className="w-20 lgl:w-32" src={quote} alt="quote" />
                 <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
-                  <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
+                  {/* <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
                         Website
@@ -183,7 +183,7 @@ const Testimonial = () => {
                       <RiStarFill />
                       <RiStarFill />
                     </div>
-                  </div>
+                  </div> */}
                   {/* <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
                     dolorum, eos natus ipsum numquam veniam officia
@@ -218,7 +218,7 @@ const Testimonial = () => {
               <div className="w-full lgl:w-[60%] h-full flex flex-col justify-between">
                 <img className="w-20 lgl:w-32" src={quote} alt="quote" />
                 <div className="w-full h-[70%] py-10 bg-gradient-to-r from-[#1e2024] to-[#23272b] rounded-lg shadow-shadowOne p-4 lgl:p-8 flex flex-col justify-center gap-4 lgl:gap-8">
-                  <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
+                  {/* <div className="flex flex-col justify-between lgl:items-center py-6 border-b-2 border-b-gray-900">
                     <div>
                       <h3 className="text-xl lgl:text-2xl font-medium tracking-wide">
                         Website
@@ -234,7 +234,7 @@ const Testimonial = () => {
                       <RiStarFill />
                       <RiStarFill />
                     </div>
-                  </div>
+                  </div> */}
                   {/* <p className="text-base font-titleFont text-gray-400 font-medium tracking-wide leading-6">
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. A
                     dolorum, eos natus ipsum numquam veniam officia
